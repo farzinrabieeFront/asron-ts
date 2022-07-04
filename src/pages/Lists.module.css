@@ -1,0 +1,18 @@
+.thead{
+    background: whitesmoke;
+    height: 70px;
+
+}
+.tbody{
+    background: white;
+    min-height: 70px;
+
+}
+.textHead{
+    color: #666464;
+    font-size: 12px;
+}
+.textBody{
+    font-size: 14px;
+    fill: red;
+}

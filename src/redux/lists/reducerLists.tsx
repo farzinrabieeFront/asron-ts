@@ -5,7 +5,7 @@ const initialState = {
   pagination: 1,
 };
 
-const reducerLists = (state = initialState, { type, payload }) => {
+const reducerLists = (state = initialState, { type, payload }: any) => {
   switch (type) {
     case "FETCH_LISTS_REQUEST":
       return {
@@ -17,7 +17,6 @@ const reducerLists = (state = initialState, { type, payload }) => {
         ...state,
         loading: false,
         lists: payload.lists,
-        pagination: payload.pagination,
       };
     default:
       return state;
